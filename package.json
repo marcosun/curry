@@ -1,5 +1,5 @@
 {
-  "name": "curry",
+  "name": "@marco/curry",
   "version": "1.0.0",
   "description": "A curry wrapper function to transform any regular javascript function into a curry function.",
   "main": "cjs/index.js",
