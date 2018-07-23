@@ -1,7 +1,7 @@
 {
-  "name": "js-component-seed",
+  "name": "curry",
   "version": "1.0.0",
-  "description": "Start point for a javascript package",
+  "description": "Curry wrapper function as explained in detail here: https://hackernoon.com/currying-in-js-d9ddc64f162e",
   "main": "cjs/index.js",
   "module": "es/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "test:watch": "npm test --watch",
     "version": "yarn test && yarn build && npm publish build"
   },
-  "repository": "git@github.com:marcosun/js-component-seed.git",
+  "repository": "git@github.com:marcosun/curry.git",
   "author": "marcosun <marcoinbristol@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -42,6 +42,8 @@
     "rimraf": "^2.6.2"
   },
   "jest": {
-    "roots": ["<rootDir>/src/"]
+    "roots": [
+      "<rootDir>/src/"
+    ]
   }
 }
